@@ -13,10 +13,10 @@ This project was created as a means to sort, select, view, and add employees to 
 * [Questions](#questions)
 
 ## Installation
-To install the project, all you have to do is pull the repository into your local machine.
+To install the project, you'll begin by pulling the repository into your local machine. Next, you'll want to navigate to the sql directory in your CLI. Connect to postgres and run \i schema.sql to create the database and the tables. Then, you'll want to run seeds.sql to seed the database with example data. Be sure to also run npm i to install all of the dependencies that the project has!+
 
 ## Usage
-The usage of the project is simple. First, you should navigate to the directory where you installed the project. Next, run node index.js and answer all of the prompts that come up.
+To use the project, you'll first follow the instructions listed under "Installation". Then, you'll want to navigate to the directory where you installed the project. Run npm run start and enjoy!
 
 ## License
 
@@ -31,4 +31,4 @@ Contributions are welcome! Create your own branch and request to merge into the 
 Currently, there are no tests for this project.
 
 ## Questions
-If you have any questions about the README.md Creator application, please contact me at scottmsaller@gmail.com or visit my GitHub profile at [scottmsaller](https://github.comscottmsaller).
+If you have any questions about the Employee-Tracker application, please contact me at scottmsaller@gmail.com or visit my GitHub profile at [scottmsaller](https://github.comscottmsaller).

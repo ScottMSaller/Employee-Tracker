@@ -15,7 +15,10 @@ const pool = new Pool({
 const connectToDb = async () => {
   try {
     await pool.connect();
-    console.log('Connected to the database.');
+    console.log(
+`---------------------------------
+Welcome to the Employee Tracker!
+---------------------------------`);
   } catch (err) {
     console.error('Error connecting to database:', err);
   }
